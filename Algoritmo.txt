@@ -1,0 +1,33 @@
+matriz de 4x4
+cada entrada es un valor multiplo de 2
+empieza con dos valores en lugares random del grid (4 o 5)
+movimiento arriba
+	- si hay valores iguales hacia arriba en alguna columna, los suma 
+	- limpia los valores que se van a sumar
+	- pone la suma en la pos más arriba posible en esa columna
+	- corre todos los valores lo más arriba posible
+	- hace aparecer aleatoriamente un 4 o un 2 en alguna parte del grid
+movimiento abajo
+	- si hay valores iguales hacia abajo en alguna columna, los suma 
+	- limpia los valores que se van a sumar
+	- pone la suma en la pos más abajo posible en esa columna
+	- corre todos los valores lo más abajo posible
+	- hace aparecer aleatoriamente un 4 o un 2 en alguna parte del grid
+movimiento izquierda
+	- si hay valores iguales hacia la izquierda en alguna fila, los suma 
+	- limpia los valores que se van a sumar
+	- pone la suma en la pos más izquierda posible en esa fila
+	- corre todos los valores lo más a la izquierda posible
+	- hace aparecer aleatoriamente un 4 o un 2 en alguna parte del grid
+movimiento derecha
+	- si hay valores iguales hacia la derecha en alguna fila, los suma 
+	- limpia los valores que se van a sumar
+	- pone la suma en la pos más a la derecha posible en esa fila
+	- corre todos los valores lo más a la derecha posible
+	- hace aparecer aleatoriamente un 4 o un 2 en alguna parte del grid
+NOTA:
+	- suma todos los valores iguales que se encuentren seguidos en esa dirección
+	- No importa si hay espacios en blanco en medio (no tienen que estar consecutivos) 
+	- cada suma que haga el usuario se le suma al score
+	- pierde si se llena el grid y no es posible sumar ningún par de valores
+	- cada vez que suma 2048 gana un nivel 
